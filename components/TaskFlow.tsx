@@ -16,7 +16,7 @@ const TaskFlow: FC<Props> = ({
       style={{ backgroundImage: "url('/assets/task-flow-bg.svg')" }}
       className="w-1/3 px-12"
     >
-      <p className="pt-5 text-center font-bold text-secondary">Task Flow</p>
+      <p className="pt-5 text-center font-semibold text-secondary">Task Flow</p>
       <div
         className={`py-8 grid ${
           allTasksAdded ? "" : "grid-cols-[135px_45px_135px]"

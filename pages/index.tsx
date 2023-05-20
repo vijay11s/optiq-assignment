@@ -66,7 +66,9 @@ export default function Home() {
   }
 
   return (
-    <main className={`flex flex-col min-h-screen justify-center w-4/5 mx-auto`}>
+    <main
+      className={`flex flex-col min-h-screen justify-center w-4/5 mx-auto py-10`}
+    >
       <Header />
       <div className="flex justify-between border-[2px] border-[#ECEEF2] rounded-b-md">
         <TaskFlow

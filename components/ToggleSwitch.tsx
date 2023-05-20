@@ -23,7 +23,7 @@ const ToggleSwitch: FC<Props> = ({ text, id, callback, defaultValue }) => {
         checked={checked}
       />
       <div className={styles.toggle__fill}></div>
-      <p className="pb-1 text-sm text-[#262626] font-bold">{text}</p>
+      <p className="pb-1 text-sm text-[#262626] font-semibold">{text}</p>
     </label>
   );
 };

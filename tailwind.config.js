@@ -16,6 +16,9 @@ module.exports = {
         primary: "#0496FF",
         secondary: "#595959",
       },
+      fontFamily: {
+        custom: ["SF Pro", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -17,7 +17,7 @@ const StepBox: FC<Props> = ({ text, type, onClick, onClose, isInTaskFlow }) => {
     >
       <div
         onClick={() => (isOptional && onClick ? onClick() : void 0)}
-        className={`relative min-w-[180px] text-sm flex gap-1 justify-center items-center py-3 border-[2px] border-[#ECEEF2] rounded-md font-bold ${
+        className={`text-[#595959] relative min-w-[180px] text-sm flex gap-1 justify-center items-center py-3 border-[2px] border-[#ECEEF2] rounded-md font-semibold ${
           isOptional ? "cursor-pointer text-primary" : ""
         } ${
           isExtra ? "border-primary bg-primary bg-opacity-[0.05]" : "bg-white"

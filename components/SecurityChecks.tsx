@@ -5,7 +5,7 @@ import ToggleSwitch from "@/components/ToggleSwitch";
 const SecurityChecks: FC<Props> = ({ checkList, handleChange }) => {
   return (
     <div className="pt-5 pb-8 w-2/3 px-5">
-      <p className="text-[#262626] text-lg pb-4 border-b-[2px] border-[#ECEEF2]">
+      <p className="text-[#262626] text-lg pb-4 border-b-[2px] border-[#ECEEF2] font-bold">
         Security Checks
       </p>
       {checkList.map((step: StepType) => (
