@@ -8,7 +8,7 @@ const Button: FC<Props> = ({ text, variant, onClick }) => {
 
   return (
     <button
-      className={`py-3 pl-4 pr-3 font-bold text-sm rounded-md border-[2px] border-solid ${variantStyle[variant]}`}
+      className={`py-3 px-4 font-bold text-sm rounded-md border-[2px] border-solid ${variantStyle[variant]}`}
       onClick={onClick}
     >
       {text}
